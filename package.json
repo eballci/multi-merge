@@ -1,0 +1,38 @@
+{
+  "author": {
+    "name": "Emre BALCI",
+    "email": "emre-balci@outlook.com.tr"
+  },
+  "bugs": {
+    "url": "https://github.com/eballci/multi-merge/issues"
+  },
+  "description": "JavaScript object merger with descriptors for both Browser and Node",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "mocha": "^9.1.2"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ],
+  "homepage": "https://github.com/eballci/multi-merge#readme",
+  "keywords": [
+    "object",
+    "merge",
+    "multiple"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "multi-merge",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eballci/multi-merge"
+  },
+  "scripts": {
+    "lint": "eslint test index.js",
+    "test": "mocha test",
+    "prepublish": "npm run lint && npm run test"
+  },
+  "version": "0.0.1"
+}
